@@ -1,0 +1,61 @@
+#HTML 
+Sure, here's a step-by-step guide to creating a simple landing page using HTML and CSS in Visual Studio Code (VS Code):
+
+Step 1: Open Visual Studio Code
+If you haven't already, download and install Visual Studio Code from https://code.visualstudio.com/ and open it.
+
+Step 2: Create a New Folder
+Create a new folder on your computer where you'll store your project files. You can name it anything you like, such as "landing-page-project".
+
+Step 3: Create HTML File
+Inside your project folder, create a new file named "index.html". This will be your HTML file where you'll write the structure of your landing page.
+
+Step 4: Write HTML Structure
+Open the "index.html" file in VS Code and write the basic structure of an HTML document:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAT ARENA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>JAT ARENA</h1>
+      <p>JUSTICE ACTION TRUTH</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <h2>Empowering You to Do More</h2>
+        <p>Chandigarh university    Campus valley  Abhishek Chaudhary</p>
+        <button class="call-to-action">Get Started</button>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h3>Key Features</h3>
+        <ul>
+          <li>Feature 1: campus valley</li>
+          <li>Feature 2: justice action truth</li>
+          <li>Feature 3: Sed elementum tempus elementum</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; JAT ARENA . campus valley.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
